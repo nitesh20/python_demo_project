@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django
+db.sqlite3
+*.log
+local_settings.py
+
+# Environments
+.env
+venv/
+ENV/
+*.env
+
+# VSCode
+.vscode/
+
+# Migrations
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+
+# Others
+.DS_Store
+*.bak
+*.swp
